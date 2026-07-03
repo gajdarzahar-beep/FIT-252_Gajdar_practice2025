@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.v9.bin
+DocumentLayout.json
+.DS_Store
