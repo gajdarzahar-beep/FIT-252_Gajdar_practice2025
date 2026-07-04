@@ -1,12 +1,18 @@
 using System;
 using System.IO;
 using task08.CommandLib;
+<<<<<<< HEAD
 using task07;
 
 namespace task08.FileSystemCommands;
 
 [DisplayName("DirectorySizeCommand")]
 [Version(1, 0)]
+=======
+
+namespace task08.FileSystemCommands;
+
+>>>>>>> task08
 public class DirectorySizeCommand : ICommand
 {
     private readonly string _directoryPath;

@@ -1,12 +1,18 @@
 using System;
 using System.IO;
 using task08.CommandLib;
+<<<<<<< HEAD
 using task07;
 
 namespace task08.FileSystemCommands;
 
 [DisplayName("FindFilesCommand")]
 [Version(1, 0)]
+=======
+
+namespace task08.FileSystemCommands;
+
+>>>>>>> task08
 public class FindFilesCommand : ICommand
 {
     private readonly string _directoryPath;
